@@ -1,3 +1,5 @@
+package Logica;
+
 import java.util.Scanner;
 
 public class CalculadoraMatriz {
@@ -49,7 +51,7 @@ public class CalculadoraMatriz {
                         for (int i = 0; i < 2; i++) {
                             for (int j = 0; j < 2; j++) {
                                 sub[i][j] = matriz1[i][j] - matriz2[i][j];
-                                System.out.println(" Matriz1[" + (i + 1) + "][" + (j + 1) + "] - Matriz2[" + (i + 1) + "][" + (j + 1) + "] / " + matriz1[i][j] + " - " + matriz2[i][j] + " é igual a: " + sum[i][j]);
+                                System.out.println(" Matriz1[" + (i + 1) + "][" + (j + 1) + "] - Matriz2[" + (i +1) + "][" + (j +1) + "] / " + matriz1[i][j] + " - " + matriz2[i][j] + " é igual a: " + sub[i][j]);
                             }
                         }
                         break;
